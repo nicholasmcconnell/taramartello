@@ -8,9 +8,9 @@ import Header from './components/layout/Header'
 import Home from './components/pages/Home.js';
 import Login from './components/auth/Login.js';
 import Register from './components/auth/Register.js';
-import CreateTodos from './components/todo/CreateTodos';
-import GetTodos from './components/todo/GetTodos';
-import SearchTodos from './components/todo/SearchTodo';
+// import CreateTodos from './components/todo/CreateTodos';
+// import GetTodos from './components/todo/GetTodos';
+// import SearchTodos from './components/todo/SearchTodo';
 
 import './App.css';
 
@@ -61,9 +61,9 @@ function App() {
               <Route exact path='/' component={Home} />
               <Route path='/login' component={Login} />
               <Route path='/register' component={Register} />
-              <Route path='/createtodos' component={CreateTodos} />
+              {/* <Route path='/createtodos' component={CreateTodos} />
               <Route path='/gettodos' component={GetTodos} />
-              <Route path='/searchtodos' component={SearchTodos} />
+              <Route path='/searchtodos' component={SearchTodos} /> */}
             </Switch>
             {/* </div> */}
           {/* </SuccessContext.Provider> */}

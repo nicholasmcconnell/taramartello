@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
 /* @custom-media --viewport-4 (min-width: 480px);
 @custom-media --viewport-7 (min-width: 768px);
 @custom-media --viewport-9 (min-width: 992px);
@@ -36,7 +38,7 @@ h1, h2, h3, h4, h5, h6, ul, ol, p {
 /* GENERAL */
 
 body, textarea {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .page {
@@ -68,9 +70,14 @@ body, textarea {
 }
 
 #header .title {
-  margin: 0;
+  /* margin-left: 29vw; */
   padding: 0 1rem;
   color: #ffffff;
+  text-align:center;
+  display:inline-block;
+  position:relative;
+  width:100%; 
+  /* background-color: #000; */
 }
 
 #header .auth-options {
@@ -86,9 +93,16 @@ body, textarea {
 }
 
 #header .auth-options button:hover {
-  background-color: #b94949;
+  background-color: #a74343;
   /* box-shadow: inset 0px 0px 4px #6d6d6e; */
   /* border-radius: 5px; */
+}
+
+/* TARA IMAGE */
+
+.taraImage {
+  width: 100vw;
+  height: auto;
 }
 
 /* FORM */

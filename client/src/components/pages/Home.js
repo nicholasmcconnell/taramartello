@@ -2,6 +2,8 @@ import React, { useEffect, useContext } from 'react';
 import UserContext from '../../context/UserContext';
 import { useHistory } from 'react-router-dom';
 import TodoOptions from '../todo/TodoOptions';
+import TaraName from '../../assets/images/TaraName.png';
+
 
 function Home() {
     const { userData } = useContext(UserContext);
@@ -18,7 +20,11 @@ function Home() {
     });
     return (
         <>
-           <TodoOptions />
+           {/* <TodoOptions /> */}
+
+           <div className="container">
+             <img className="taraImage" src={TaraName} />;
+           </div>
         </>
     )
 }
