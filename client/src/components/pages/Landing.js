@@ -3,6 +3,9 @@ import UserContext from '../../context/UserContext';
 import { useHistory } from 'react-router-dom';
 import TodoOptions from '../todo/TodoOptions';
 import LandingImage from '../layout/LandingImage'
+import TaraName from '../../assets/images/TaraName.png';
+import TaraOffer from '../../assets/images/whatIOffer.png';
+
 
 
 function Home() {
@@ -21,7 +24,13 @@ function Home() {
     return (
         <>
             {/* <TodoOptions /> */}
-            <LandingImage />
+            <LandingImage
+                image={TaraName}
+            />
+             <LandingImage
+                image={TaraOffer}
+            />
+
 
         </>
     )

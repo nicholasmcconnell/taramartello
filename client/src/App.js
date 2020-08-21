@@ -53,7 +53,7 @@ function App() {
   }, [])
 
   return (
-    <>
+    <div className='main-container'>
       <BrowserRouter>
         <UserContext.Provider value={{ userData, setUserData }}>
           {/* <SuccessContext.Provider value={{ todoSuccess, setTodoSuccess }}> */}
@@ -73,7 +73,7 @@ function App() {
           <Footer />
         </UserContext.Provider>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 
