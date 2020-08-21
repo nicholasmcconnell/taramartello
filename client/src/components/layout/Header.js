@@ -12,7 +12,7 @@ export default function Header() {
                 <h1 className='title'>Tara Martello</h1>
             </Link>
 
-            <AuthOptions />
+            {/* <AuthOptions /> */}
 
         </header>
     )
