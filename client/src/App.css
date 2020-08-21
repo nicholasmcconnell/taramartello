@@ -195,14 +195,14 @@ i {
   border: 1px solid #408555;
   /* box-shadow: inset 0px 0px 5px #429de2; */
   border-radius: 5px;
-  background-color: #98e497;
+  background-color: #85bd84;
   font-size: 1.1rem;
   justify-content: space-between;
 
 }
 
 .footerform input[type='submit']:hover {
-  background-color: #cfe9ce;
+  background-color: #6fb86f;
   box-shadow: inset 0px 0px 7px #3c90cf;
   outline: none;
 }
