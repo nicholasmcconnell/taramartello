@@ -1,28 +1,18 @@
-# Todo's!
+# Tara Martello Mindfullness Coaching!
 ___
 
 ## Overview
-A MERN stack application where user's register/login/logout of an account and create, view, update, search and delete their Todos!  All REST API routes are authorized and authenticated via JSON Web Tokens (JWT's).
 
-When users create a todo, they enter a title, description, and YouTube URL associated with their todo.  Each todo is then accesible via the create todo page where they can be viewed, updated, or deleted.  
+This is a web applicatoin where users can login and purchase online yoga, meditation, birth chart reading, and mindfulness coaching sessions>
 
-Upon a succesfull key word or phrase search, matching todo's are displayed on the search page where they can also be viewed, edited, and deleted.
+This project is in process so some features may not be full operational.
 
-To demo this application: 
-
-1. Vist the deployed link [here](https://nmcconnell-todo.herokuapp.com/) 
-2. Login with Email: user@user.com and Password: useruser.  
-3. Or, register an account and create your own todos! 
 ___
 
 ## Demonstration:
 ___
 
 ## Links:
-
-[Github Repo](https://github.com/nicholasmcconnell/todo)
-
-[Deployed Website](https://nmcconnell-todo.herokuapp.com/)
 ___
 
 ## Technologies
@@ -33,6 +23,9 @@ ___
 * express
 * CSS3
 * ES6
+* MailChimp
+* Calendy
+* Stripe
 
 	
 ## Setup
