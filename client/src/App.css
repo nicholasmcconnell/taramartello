@@ -31,7 +31,7 @@ button, input[type='submit'], .form input[type='reset'], textarea {
 }
 
 h1, h2, h3, h4, h5, h6, ul, ol, p {
-  margin: 1em 0;
+  /* margin: 1em 0; */
 }
 
 html,
@@ -61,9 +61,13 @@ body, textarea {
 .page {
   width: 100%;
   padding: .5rem;
-  /* display: flex; */
+  display: flex;
   /* justify-content: space-evenly; */
 }
+/* 
+display:flex;
+  flex-direction: column;
+  background-color:green; */
 
 .container {
   border-radius: 4px;
@@ -120,32 +124,77 @@ body, textarea {
 
 .footer {
   margin-top: 20px;
-  height: 50px;
-  display: flex;
+  height: 150px;
+  display: grid;
   align-items: center;
   background-color: #c74939;
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
 }
 
-#footer .icons {
-  padding: 5vh;
+.footer .icons {
   color: #ffffff;
-  /* text-align:center; */
-  /* display: inline-block; */
-  /* position: relative; */
+  display: inline-block;
+  vertical-align: middle;
   width: 100%;
-  /* height: auto; */
-  /* background-color: #12b5f5; */
 }
 
 i {
-  padding: 2.5vh;
-  /* height: auto; */
-  /* margin: 1rem; */
+  padding: 1vh;
+}
+
+.footerform {
+  /* display: grid; */
+  /* align-items: center; */
+  margin: 0;
+
+}
+
+.footerform h2 {
+ margin-bottom: .5rem;
+}
+
+.footer .footerform input[type='email'] {
+
+  width: 20%;
+  display: inline-block;
+  padding: .3rem;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  font-size: 1.1rem;
+  margin-bottom: .3rem;
+
+}
+.footerform input:hover {
+  /* background-color: #b7ebb7; */
+  box-shadow: inset 0px 0px 7px #96a0a8;
+  outline: none;
+}
+
+.footer .footerform input[type='submit'] {
+
+  /* display: block; */
+  margin: 0 auto;
+  margin-top: .3rem;
+  margin-left: .3rem;
+  padding: .45rem .75rem;
+  border: 1px solid #408555;
+  /* box-shadow: inset 0px 0px 5px #429de2; */
+  border-radius: 5px;
+  background-color: #98e497;
+  font-size: 1.1rem;
+  justify-content: space-between;
+
+}
+
+.footerform input[type='submit']:hover {
+  background-color: #cfe9ce;
+  box-shadow: inset 0px 0px 7px #3c90cf;
+  outline: none;
 }
 
 /* LANDING PAGE */

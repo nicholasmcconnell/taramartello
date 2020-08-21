@@ -1,8 +1,12 @@
 import React from 'react'
+import EmailSignup from '../layout/EmailSignup'
 
 export default function Footer() {
     return (
         <footer className='footer' id='footer'>
+            {/* <div className='icons'> */}
+                <EmailSignup />
+            {/* </div> */}
             {/* <h1 className='title'>Tara Martello</h1> */}
             <div className='icons'>
                 <i className="fab fa-instagram fa-2x"></i>
