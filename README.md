@@ -3,7 +3,7 @@ ___
 
 ## Overview
 
-This is a web applicatoin where users can login and purchase online yoga, meditation, birth chart reading, and mindfulness coaching sessions>
+This is a web applicatoin where users can login and purchase online yoga, meditation, birth chart reading, and mindfulness coaching sessions.
 
 This project is in process so some features may not be full operational.
 
