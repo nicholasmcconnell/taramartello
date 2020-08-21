@@ -8,6 +8,8 @@ import Header from './components/layout/Header'
 import Home from './components/pages/Home.js';
 import Login from './components/auth/Login.js';
 import Register from './components/auth/Register.js';
+import Landing from './components/pages/Landing.js';
+import Footer from './components/layout/Footer';
 // import CreateTodos from './components/todo/CreateTodos';
 // import GetTodos from './components/todo/GetTodos';
 // import SearchTodos from './components/todo/SearchTodo';
@@ -47,7 +49,7 @@ function App() {
         })
       }
     };
-    checkLoggedIn();
+    // checkLoggedIn();
   }, [])
 
   return (
@@ -55,18 +57,20 @@ function App() {
       <BrowserRouter>
         <UserContext.Provider value={{ userData, setUserData }}>
           {/* <SuccessContext.Provider value={{ todoSuccess, setTodoSuccess }}> */}
-            <Header />
-            {/* <div className='page'> */}
-            <Switch>
-              <Route exact path='/' component={Home} />
-              <Route path='/login' component={Login} />
-              <Route path='/register' component={Register} />
-              {/* <Route path='/createtodos' component={CreateTodos} />
+          <Header />
+          {/* <div className='page'> */}
+          <Switch>
+            {/* <Route exact path='/' component={Home} /> */}
+            <Route exact path='/' component={Landing} />
+            <Route path='/login' component={Login} />
+            <Route path='/register' component={Register} />
+            {/* <Route path='/createtodos' component={CreateTodos} />
               <Route path='/gettodos' component={GetTodos} />
               <Route path='/searchtodos' component={SearchTodos} /> */}
-            </Switch>
-            {/* </div> */}
+          </Switch>
+          {/* </div> */}
           {/* </SuccessContext.Provider> */}
+          <Footer />
         </UserContext.Provider>
       </BrowserRouter>
     </>

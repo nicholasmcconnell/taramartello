@@ -4,7 +4,7 @@ import UserContext from '../../context/UserContext';
 import AuthOptions from '../auth/AuthOptions';
 
 export default function Header() {
-    const { userData } = useContext(UserContext);
+    // const { userData } = useContext(UserContext);
 
     return (
         <header id='header'>
