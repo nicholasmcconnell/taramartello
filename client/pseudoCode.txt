@@ -1,8 +1,12 @@
 Landing page
-    1. picture thing
-    2. footer
-    3. mail chimp
-    4. social media links
+    1.Footer - Blue
+    2. Services - 1on1 Yoga, recenture project, guided sessions, intuitive astrology, 
+        - Testimonials for all services
+    3. all but recenture
+        - Schedule book free consult free session do before payment
+        - Acuity Scheduling/Acuity - links with stripe
+        - First few insta photos
+
 
     
 

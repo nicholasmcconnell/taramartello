@@ -128,8 +128,10 @@ display:flex;
   height: 170px;
   display: grid;
   align-items: center;
-  background-color: #ce6153;
+  /* background-color: #ce6153; */
   position: fixed;
+  background-color: #90afc8;
+  border-top: 2px solid rgb(128, 79, 79);
   left: 0;
   bottom: 0;
   width: 100%;
