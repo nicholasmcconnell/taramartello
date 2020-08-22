@@ -12,7 +12,7 @@ export default function EmailSignup() {
     return (
         <>
             {/* <div id="mc_embed_signup"> */}
-            <form action="https://taramartello.us17.list-manage.com/subscribe/post?u=388b4c4e898214aaf5d7be920&amp;id=9a1f10895f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate footerform" target="_blank" novalidate>
+            <form action="https://taramartello.us17.list-manage.com/subscribe/post?u=388b4c4e898214aaf5d7be920&amp;id=9a1f10895f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate footerform" target="_blank" noValidate>
                 <h2>Sign up for my Newsletter!</h2>
                 {/* <p>Life, Mindfulness and Love</p> */}
                 <div id="mc_embed_signup_scroll">
@@ -28,11 +28,11 @@ export default function EmailSignup() {
                         onChange={e => setEmail(e.target.value)} />
 
                     <div style={{ position: "absolute", left: "-5000px" }} aria-hidden="true">
-                        <input type="text" name="b_388b4c4e898214aaf5d7be920_9a1f10895f" tabindex="-1" value="" />
+                        <input type="text" name="b_388b4c4e898214aaf5d7be920_9a1f10895f" tabIndex="-1" value="" />
                     </div>
 
                     {/* <div class="clear"> */}
-                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" />
+                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" />
                     {/* </div> */}
                 </div>
             </form>
