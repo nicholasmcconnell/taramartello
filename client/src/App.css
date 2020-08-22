@@ -34,19 +34,22 @@ h1, h2, h3, h4, h5, h6, ul, ol, p {
   /* margin: 1em 0; */
 }
 
-html,
-body {
- height: 100%;
- position: relative;
+html, body {
+  height: 100%;
+  position: relative;
 }
+
 .main-container {
- min-height: 100vh; /* will cover the 100% of viewport */
- overflow: hidden;
- display: block;
- position: relative;
- padding-bottom: 190px; /* height of your footer */
- background-color: #eeb6b4;
+  min-height: 100vh;
+  /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 190px;
+  /* height of your footer */
+  background-color: #eeb6b4;
 }
+
 /* footer {
  position: absolute;
  bottom: 0;
@@ -65,6 +68,7 @@ body, textarea {
   display: flex;
   /* justify-content: space-evenly; */
 }
+
 /* 
 display:flex;
   flex-direction: column;
@@ -159,16 +163,14 @@ i {
   /* display: grid; */
   /* align-items: center; */
   margin: 0;
-
 }
 
 .footerform h2 {
- margin-bottom: .5rem;
- margin-top: .5rem;
+  margin-bottom: .5rem;
+  margin-top: .5rem;
 }
 
 .footer .footerform input[type='email'] {
-
   width: 30%;
   display: inline-block;
   padding: .3rem;
@@ -177,8 +179,8 @@ i {
   background-color: #f0f0f0;
   font-size: 1.1rem;
   margin-bottom: .3rem;
-
 }
+
 .footerform input:hover {
   /* background-color: #b7ebb7; */
   box-shadow: inset 0px 0px 7px #96a0a8;
@@ -186,7 +188,6 @@ i {
 }
 
 .footer .footerform input[type='submit'] {
-
   /* display: block; */
   margin: 0 auto;
   margin-top: .3rem;
@@ -198,7 +199,6 @@ i {
   background-color: #85bd84;
   font-size: 1.1rem;
   justify-content: space-between;
-
 }
 
 .footerform input[type='submit']:hover {
@@ -504,69 +504,25 @@ i {
   #header .auth-options button {
     font-size: 4vw;
   }
-
   .footer {
     height: 20vh;
-   
   }
-  
-  .footer .icons {
-    color: #ffffff;
-    display: inline-block;
-    vertical-align: middle;
-    width: 100%;
+  .footer p {
+    font-size: 8px;
   }
-  
-  i {
-    padding: 1vh;
-    margin-bottom: .5rem;
-  }
-  
-  .footerform {
-    /* display: grid; */
-    /* align-items: center; */
-    margin: 0;
-  
-  }
-  
   .footerform h2 {
-  font-size: 20px;
-   margin-bottom: .1rem;
-   margin-top: .5rem;
+    font-size: 20px;
+    margin-bottom: .1rem;
+    margin-top: .5rem;
   }
-  
   .footer .footerform input[type='email'] {
-  
     font-size: .8rem;
-
-  
+    width: 50vw;
   }
-  .footerform input:hover {
-    /* background-color: #b7ebb7; */
-    box-shadow: inset 0px 0px 7px #96a0a8;
-    outline: none;
-  }
-  
   .footer .footerform input[type='submit'] {
-  
-    /* display: block; */
-    margin: 0 auto;
     margin-top: .3rem;
-    margin-left: .5rem;
+    margin-left: .3rem;
     padding: .4rem .6rem;
-    border: 1px solid #408555;
-    /* box-shadow: inset 0px 0px 5px #429de2; */
-    border-radius: 5px;
-    background-color: #85bd84;
     font-size: .8rem;
-    justify-content: space-between;
-  
   }
-  
-  .footerform input[type='submit']:hover {
-    background-color: #6fb86f;
-    box-shadow: inset 0px 0px 7px #3c90cf;
-    outline: none;
-  }
-
 }
