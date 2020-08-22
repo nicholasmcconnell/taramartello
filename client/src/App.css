@@ -504,4 +504,69 @@ i {
   #header .auth-options button {
     font-size: 4vw;
   }
+
+  .footer {
+    height: 20vh;
+   
+  }
+  
+  .footer .icons {
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  i {
+    padding: 1vh;
+    margin-bottom: .5rem;
+  }
+  
+  .footerform {
+    /* display: grid; */
+    /* align-items: center; */
+    margin: 0;
+  
+  }
+  
+  .footerform h2 {
+  font-size: 20px;
+   margin-bottom: .1rem;
+   margin-top: .5rem;
+  }
+  
+  .footer .footerform input[type='email'] {
+  
+    font-size: .8rem;
+
+  
+  }
+  .footerform input:hover {
+    /* background-color: #b7ebb7; */
+    box-shadow: inset 0px 0px 7px #96a0a8;
+    outline: none;
+  }
+  
+  .footer .footerform input[type='submit'] {
+  
+    /* display: block; */
+    margin: 0 auto;
+    margin-top: .3rem;
+    margin-left: .5rem;
+    padding: .4rem .6rem;
+    border: 1px solid #408555;
+    /* box-shadow: inset 0px 0px 5px #429de2; */
+    border-radius: 5px;
+    background-color: #85bd84;
+    font-size: .8rem;
+    justify-content: space-between;
+  
+  }
+  
+  .footerform input[type='submit']:hover {
+    background-color: #6fb86f;
+    box-shadow: inset 0px 0px 7px #3c90cf;
+    outline: none;
+  }
+
 }

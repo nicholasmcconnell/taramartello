@@ -14,7 +14,7 @@ export default function EmailSignup() {
             {/* <div id="mc_embed_signup"> */}
             <form action="https://taramartello.us17.list-manage.com/subscribe/post?u=388b4c4e898214aaf5d7be920&amp;id=9a1f10895f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate footerform" target="_blank" novalidate>
                 <h2>Sign up for my Newsletter!</h2>
-                <p>(description of newsletter)</p>
+                {/* <p>(description of newsletter)</p> */}
                 <div id="mc_embed_signup_scroll">
                     {/* <label htmlFor="mce-EMAIL"></label> */}
                     <input
